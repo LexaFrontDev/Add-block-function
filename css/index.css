@@ -1,0 +1,54 @@
+
+
+
+.add-block{
+    background-color: #ccc;
+    width: 247px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.add-btn{
+    background: transparent;
+    margin-top: 20px;
+    width: 170px;
+    border: 0.6px solid #000;
+    border-radius: 30px;
+    margin-left: 32px;
+}
+
+
+.Add-block{
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.block {
+    margin-left: 20px; 
+    margin-top: 20px; 
+    width: auto;
+    height: 50px;
+    text-align: center;
+    background-color: #ccc;
+    position: relative;
+}
+
+.block-header {
+    padding-top: 5px;
+}
+
+.close-block {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    transition: color 0.5s ease-out;
+    cursor: pointer;
+}
+
+.close-block:hover {
+    color: red;
+}
